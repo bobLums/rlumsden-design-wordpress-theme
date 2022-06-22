@@ -36,13 +36,13 @@
                             <header>
 		                        <nav class="navbar navbar-expand-lg navbar-light">
                                         <div class="container-lg navcont">
+                                            <a class="navbar-brand" href="<?php echo home_url() ?>">
+                                                    <img src="/wp-content/uploads/2022/02/RL-monogram-blue.png" alt="Robert Lumsden Monogram" width="50" height="50" class="navbar-brand-img">
+                                            </a>
                                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon"></span>
                                             </button>
                                             <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
-                                                <a class="navbar-brand" href="<?php echo home_url() ?>">
-                                                    <img src="/wp-content/uploads/2022/02/RL-monogram-blue.png" alt="Robert Lumsden Monogram" width="50" height="50" class="navbar-brand-img">
-                                                </a>
                                                 <?php
                                                 wp_nav_menu(array(
                                                     'theme_location' => 'main-menu',
@@ -69,13 +69,13 @@
 		<header>
 		    <nav class="navbar navbar-expand-lg navbar-light">
                                         <div class="container-lg navcont">
+                                            <a class="navbar-brand" href="<?php echo home_url() ?>">
+                                                    <img src="/wp-content/uploads/2022/02/RL-monogram-blue.png" alt="Robert Lumsden Monogram" width="50" height="50" class="navbar-brand-img">
+                                            </a>
                                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                                                 <span class="navbar-toggler-icon"></span>
                                             </button>
                                             <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
-                                                <a class="navbar-brand" href="<?php echo home_url() ?>">
-                                                    <img src="/wp-content/uploads/2022/02/RL-monogram-blue.png" alt="Robert Lumsden Monogram" width="50" height="50" class="navbar-brand-img">
-                                                </a>
                                                 <?php
                                                 wp_nav_menu(array(
                                                     'theme_location' => 'main-menu',
